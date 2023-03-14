@@ -1,0 +1,198 @@
+/* mobile design */
+
+body {
+    background-color: #FFF4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div {
+    font-family: 'Josefin Sans';
+    background-color:  #FFF4F4;
+    height: 800px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-logo {
+    height: 20.886075973510742px;
+    width: 100px;
+    margin-top: 31px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+
+.hero-mobile {
+    max-width: 100%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header1 {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 10.8254px;
+    color: #CE9898;
+    margin-top: 64px;
+}
+
+.header2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 10.8254px;
+    color: #423A3A;
+}
+
+p {
+    height: 88px;
+    width: 311px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #CE9898;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.div-input {
+    display: flex;
+    position: relative;
+}
+
+input {
+    font-family: 'Josefin Sans';
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+    height: 48px;
+    width: 311px;
+    border-radius: 28px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border: 1px solid #CE9898;
+    padding-left: 24px;
+}
+
+::placeholder {
+    color: #CE9898;
+}
+
+button {
+    height: 51px;
+    width: 64px;
+    border-radius: 28px;
+    background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 275px;
+}
+
+
+/* desktop design */
+
+@media (max-width: 414px) {
+    .hero-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 414px) {
+    body {
+        background: url(./assets/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .main-div {
+        width: 1440px;
+        height: 800px;
+        flex-direction: row;
+        justify-content: space-between;
+        background: none;
+    }
+
+    .img-logo {
+        height: 33px;
+        width: 158px;
+        margin-top: 74.91px;
+        margin-left: 165px;
+    }
+
+    .hero-mobile {
+        display: none;
+    }
+
+    section {
+    align-items: flex-start;   
+}
+
+.header1 {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 17.3206px;
+    margin-top: 136,74px;
+    margin-left: 165px;
+}
+
+.header2 {
+    height: 128px;
+    width: 444px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 71px;
+    letter-spacing: 17.3206px;
+    margin-left: 165px;
+    text-align: left;
+}
+
+p {
+    height: 84px;
+    width: 444px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 165px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+
+input {
+    height: 56px;
+    width: 445px;
+    margin-left: 165px;
+    padding-left: 32px;
+}
+
+button {
+    height: 59px;
+    width: 100px;
+    margin-left: 546px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #F8BFBF;
+}
+
+.hero-desktop {
+    height: 800px;
+    width: 610px;
+}
+
+}
